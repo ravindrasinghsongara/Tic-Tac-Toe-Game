@@ -54,8 +54,10 @@ function showWinner(winner) {
   msgContainer.style.fontSize = "large";
   msgContainer.style.backgroundColor = 'white'
   msgContainer.style.border = '2px solid black'
-  msgContainer.style.margin = '0 45% 0 45%'
+  msgContainer.style.margin = '0 30% 0 30%'
   msgContainer.style.marginTop = "20px"
+  msgContainer.style.marginBottom = "20px"
+
   btndisabled();
 }
 
@@ -69,9 +71,10 @@ function drawGame() {
         msgContainer.style.color = "black";
         msgContainer.style.fontSize = "large";
         msgContainer.style.backgroundColor = 'white'
-        msgContainer.style.border = '2px solid black'
-        msgContainer.style.margin = '0 45% 0 45%'
-        msgContainer.style.marginTop = "20px"
+        msgContainer.style.margin = '0 30% 0 30%'
+  msgContainer.style.marginTop = "20px"
+  msgContainer.style.marginBottom = "20px"
+
 
 }
 
